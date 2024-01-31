@@ -1,0 +1,64 @@
+body {
+    background-color: darkgray;
+    background: url('https://media.istockphoto.com/photos/empty-panoramic-winter-background-picture-id1181599019?k=20&m=1181599019&s=612x612&w=0&h=DlfcIxBdVwe131hYzCw4f6HNXoet75HWCG6CLfpkBxU=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10;
+}
+
+.container {
+    background-color:transparent;
+    padding: 100px;
+    border-radius: 200px;
+    box-shadow: 0 10px 10px rgba(0.5, 0.5, 0.5, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5%;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#location {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #627e75;
+}
+
+#temperature {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1c1a9c;
+}
+
+#description {
+    font-size: 1.5rem;
+    color: #1163c2;
+}
